@@ -1,7 +1,11 @@
 import React from "react";
-import Filho from './Filho'
-
+import Filho from "./Filho";
 
 export default props => {
-    cosnt notificarSaida = lugar => alert(`Liber`)
-}
+  const notificarSaidaDoFilho = lugar => alert(`Liberado para ${lugar}`);
+  return (
+    <div>
+      <Filho notificarSaida={notificarSaidaDoFilho} />
+    </div>
+  );
+};

@@ -6,12 +6,20 @@ import ReactDOM from "react-dom";
 /* import FamiliaSilva from "./components/FamiliaSilva"; */
 /* import Membro from "./components/Membro";
 import Familia from "./components/Familia"; */
-import ComponenteComFuncao from "./components/ComponenteComFuncao";
+/* import ComponenteComFuncao from "./components/ComponenteComFuncao"; */
+/* import Pai from "./components/Pai"; */
+/* import ComponenteClasse from "./components/ComponenteClasse"; */
+/* import Contador from "./components/Contador"; */
+import Hook from "./components/Hook";
 
 const elemento = document.getElementById("root");
 ReactDOM.render(
   <div>
-    <ComponenteComFuncao></ComponenteComFuncao>
+    <Hook />
+    {/* <Contador numero={0} /> */}
+    {/* <ComponenteClasse valor="Sou um componente de classe" /> */}
+    {/* <Pai /> */}
+    {/* <ComponenteComFuncao></ComponenteComFuncao> */}
     {/* <Familia sobrenome="Pereira">
       <Membro nome="Andre" />
       <Membro nome="Mariana" />
